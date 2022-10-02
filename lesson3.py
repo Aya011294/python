@@ -14,23 +14,23 @@
 # x = 0
 # lst = []
 # while i <= a - 1:
-# i += 1
-# b = (1 + (1 / i)) ** i
-# lst.append(b)
-# x = x + b
+#   i += 1
+#   b = (1 + (1 / i)) ** i
+#   lst.append(b)
+#   x = x + b
 # print("Список последовательных чисел числа N:", lst)
-# print("Сумма последовательных чисел числа N по формуле (1+ (1/n))^n равна", round(x, 2)
+# print("Сумма последовательных чисел числа N по формуле (1+ (1/n))^n равна", round(x, 2))
 
 
 ###########
 
-rint('\nTask4')
+print('\nTask4')
 import random
-
+#
 n4 = int(input('Введите N: '))
 lst4 = []
 for i in range(1, n4+1):
-lst4.append(random.randint(-n4,n4))
+    lst4.append(random.randint(-n4,n4))
 print(lst4)
 
 f = open('file.txt')
@@ -41,17 +41,17 @@ print(f'Indexes from file.txt: {ind1}, {ind2}')
 
 mult4 = lst4[ind1] * lst4[ind2]
 print(mult4)
-
-
-
-###########
-
-mport math
-# Линейный конгруэнтный метод
-
-m=32768
-a=23
-b=12345
+#
+#
+#
+# ###########
+#
+# mport math
+# # Линейный конгруэнтный метод
+#
+# m=32768
+# a=23
+# b=12345
 # a=a1+a10*10 # случайный выбор множителя (это мои пробы)
 # # можно еще попробовать случайно выбирать из массива рекомендованных констант
 #
@@ -97,15 +97,15 @@ b=12345
 # 1.Напишите программу, в которой пользователь будет задавать две строки,
 # а программа - определять количество вхождений одной строки в другой.
 
-stroka1 = 'Привет как у вас дела Привет'
-stroka2 = 'Привет'
-lst = stroka1.split (sep=' ')
-print(lst)
-count = 0
-  for i in range (len(lst)):
-    if lst[i] == stroka2:
-      count+=1
-print(count)
+# stroka1 = 'Привет как у вас дела Привет'
+# stroka2 = 'Привет'
+# lst = stroka1.split (sep=' ')
+# print(lst)
+# count = 0
+#   for i in range (len(lst)):
+#     if lst[i] == stroka2:
+#       count+=1
+# print(count)
 
 # Определить, позицию второго вхождения строки в списке либо сообщить, что её нет.
 # Примеры
@@ -115,16 +115,16 @@ print(count)
 # список: ["123", "234", 123, "567"], ищем: "123", ответ: -1
 # список: [], ищем: "123", ответ: -1
 
-list1 = ["123", "234", 123, "567"]
-stroka1 = '123'
-count = 0
-for i in range(len(list1)):
-if list1[i] == stroka1:
-count+=1
-if count ==2:
-print (i)
-break
-if count != 2:
-print(-1)
+# list1 = ["123", "234", 123, "567"]
+# stroka1 = '123'
+# count = 0
+# for i in range(len(list1)):
+#   if list1[i] == stroka1:
+#     count+=1
+#     if count ==2:
+#       print (i)
+#   break
+# if count != 2:
+#   print(-1)
 
 
